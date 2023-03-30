@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/android-chrome-192x192.png">
+    <script src="https://kit.fontawesome.com/8357e7b27d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Dev Detective</title>
+</head>
+<body class="bd">
+    <div class="wrapper">
+        <div class="heading">
+            <div class="logo">
+                <h1>DevDetective</h1>
+            </div>
+            <div class="mode">
+                <button id="modechangebn">Dark &nbsp; <i class="fa-sharp fa-solid fa-moon"></i></button>
+                <!-- <i class="fa-solid fa-sun"></i> -->  
+            </div>
+        </div> 
+        <div class="inputsection">
+            <i style="color: blue;" class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="userinput" placeholder="Enter your Github Username....." spellcheck="false">
+            <button id="searchbn">Search</button>
+        </div>
+        <div class="maincontainer">
+            <div class="photo">
+                <img src="images/android-chrome-192x192.png" class="userimage" id="userimage">
+            </div>
+            <div class="info">
+                <div class="l1">
+                <h1 id="userprofilename">unknown</h1>
+                <p id="datejoin">unknown</p>
+                </div>
+                <p id="userid"><a href="#">@unknown</a></p>
+                <div class="desc">
+                    <p id="about">Biodata</p>
+                </div>
+                <div class="githubinfo">
+                    <div class="card">
+                        <p>Repos</p>
+                        <h1 id="reponumber">00</h1>
+                    </div>
+                    <div class="card">
+                        <p>Followers</p>
+                        <h1 id="Followers">00</h1>
+                    </div>
+                    <div class="card">
+                        <p>Following</p>
+                        <h1 id="followingnumber">00</h1>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <ul>
+                         <li><i class="fa-solid fa-location-dot"></i><Span id="location"> unknown</Span></li>
+                       
+                        <li><i class="fa-solid fa-link"></i>
+                        <a id="userlink" href="https://thepranaygupta.github.io">unknown</a></li>
+
+                        <li><i class="fa-brands fa-twitter"></i>
+                        <a id="twitterlink" href="#">unknown</a></li>
+
+                        <li><i class="fa-solid fa-building"></i>
+                            <span id="companyname"> unknown</span>
+                               
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <script src="script.js"></script>
+</body>
+</html>

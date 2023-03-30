@@ -1,0 +1,166 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bd{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f7ff;
+
+}
+
+.wrapper{
+   width: 45vw;
+   height: 80vh;
+   /* background-color: red; */
+   display: flex;
+   flex-direction: column;
+   row-gap: 15px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+#modechangebn{
+    border-radius: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+}
+.inputsection{
+    width: 100%;
+   padding-left: 5px;
+   padding-right: 5px;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.inputsection input{
+    padding: 16px;
+    border: none;
+    background: transparent;
+    outline: none;
+   
+    width: 80%;
+    
+}
+.inputsection button{
+    background-color: blue;
+    color: white;
+    padding: 6px;
+    font-size: larger;
+    border-radius: 10px;
+    float:end;
+}
+
+#userimage{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.maincontainer{
+
+    background-color: red;
+    display: flex;
+    border-radius: 5px;
+    gap: 5%;
+
+   padding:20px;
+   background-color: white;
+}
+.maincontainer p{
+    opacity: 0.7;
+}
+.desc{
+    width: 400px;
+    height: 100px;
+    /* background-color: red; */
+    /* display: flex;
+    flex-wrap: wrap; */
+  
+
+}
+
+.info{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  
+}
+.l1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.githubinfo{
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    background-color:#e6f7ff ;
+    height: 100px;
+}
+
+.bottom ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     row-gap: 10px;
+}
+
+.bottom ul li{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+.bottom ul li a{
+
+    color: blue;
+
+}
+
+
+
+.headingdark{
+    color: white;
+}
+
+#modechangebndark{
+    color: white;
+}
+
+
+.bddark{
+    background-color: #2b3442;
+}
+.maincontainerdark{
+    background-color:rgb(24, 24, 38);
+}
+.pdark{
+    color: white;
+}
+.cardactivedark{
+    background-color: #2b3442;
+}
+.liactivedark{
+    color: white;
+}
+.h1dark{
+    color: white;
+}
+.inputsectiondark{
+    background-color: rgb(24, 24, 38);
+}
